@@ -37,7 +37,7 @@
     "standard": "^16.0.3",
     "vows": "^0.8.1"
   },
-  "repository": "github:astro/node-expat",
+  "repository": "https://github.com/Paperpile/node-expat.git",
   "homepage": "http://github.com/astro/node-expat",
   "bugs": "https://github.com/astro/node-expat/issues",
   "author": {
