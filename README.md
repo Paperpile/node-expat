@@ -1,4 +1,8 @@
-# node-expat
+# node-expat Paperpile fork
+
+This is a fork of [node-expat](https://github.com/astro/node-expat) needed for the `desktop` project.
+
+It contains prebuilt Electron binaries for Mac and Windows (created by [prebuild](https://github.com/prebuild/prebuild)). It uses [prebuild-install](https://github.com/prebuild/prebuild-install) so `electron-builder` can automatically pick up the prebuilt binaries. Thanks to that, we can build for both platforms from a Mac.
 
 [![build status](https://img.shields.io/travis/astro/node-expat/master.svg?style=flat-square)](https://travis-ci.org/astro/node-expat/branches)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
