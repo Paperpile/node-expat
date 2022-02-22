@@ -19,7 +19,7 @@
     "benchmark": "node ./benchmark.js",
     "install": "prebuild-install --runtime electron || node-gyp rebuild",
     "rebuild": "node-gyp rebuild",
-    "prebuild": "prebuild --target 15.3.0 --runtime electron --verbose"
+    "prebuild": "prebuild --target 17.0.1 --runtime electron --verbose"
   },
   "dependencies": {
     "bindings": "^1.5.0",
