@@ -19,7 +19,8 @@
     "benchmark": "node ./benchmark.js",
     "install": "prebuild-install --runtime electron || node-gyp rebuild",
     "rebuild": "node-gyp rebuild",
-    "prebuild": "prebuild --target 17.0.1 --runtime electron --verbose"
+    "prebuild": "prebuild --target 37.2.5 --runtime electron --verbose",
+    "prebuild:x64": "yarn prebuild --arch x64"
   },
   "resolutions": {
     "node-abi": "4.10.0"
